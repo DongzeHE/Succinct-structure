@@ -12,3 +12,5 @@ This folder is for the first task: bit-vector rank.
 3. `rank0()`: rank0 function is an O(1) time operation, which returns the counts of 0 appeared before a given position `pos` in `bv` (bv[0:pos]).
 
 4. `overhead()`: overhead() function returns the bits used to store the rank_support object.
+
+`rank_evaluation` file makes up some random bit-vector in different size, and plot the relations between bit-vector size and run time or overhead.
