@@ -36,8 +36,8 @@ There are five files in this folder, which can satistisfy the four functions req
           <i> is the occurrence of the character <c> for one wishes to know the index (again, \t is the tab character). 
           
           
-  There are the example files used for each function, to run the toy example, please run:
-          1. `$Rscript wt_build.R a_string.txt` to achieve wavelet tree construction.
-          2. `Rscript wt_access.R wavelet_tree_example.RDS access_indices_example.txt`
-          3. `$Rscript wt_rank.R wavelet_tree_example.RDS rank_indices_example.txt`
-          4. `$Rscript wt_select.R wavelet_tree_example.RDS select_indices_example.txt`
+  There are the example files used for each function, to run the toy example, please run:  
+          1. `$Rscript wt_build.R a_string.txt` to achieve wavelet tree construction.  
+          2. `Rscript wt_access.R wavelet_tree_example.RDS access_indices_example.txt`  
+          3. `$Rscript wt_rank.R wavelet_tree_example.RDS rank_indices_example.txt`  
+          4. `$Rscript wt_select.R wavelet_tree_example.RDS select_indices_example.txt`  
