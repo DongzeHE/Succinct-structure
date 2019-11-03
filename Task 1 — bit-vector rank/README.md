@@ -13,4 +13,4 @@ This folder is for the first task: bit-vector rank.
 
 4. `overhead()`: overhead() function returns the bits used to store the rank_support object.
 
-`rank_evaluation` file evaluate the profiles of bit-vector rank operation. It first generates some random bit-vectors with different size, and plot the relations between bit-vector size and run time or overhead. The result shows that the runtime of rank operation is `O(1)`, and the overhead is `n+o(n)`
+`rank_evaluation` file evaluate the profiles of bit-vector rank operation. It first generates some random bit-vectors with different size, and plot the relations between bit-vector size and run time or overhead. The result shows that the runtime of rank operation is `O(1)`, and  overhead is `n+o(n)`
