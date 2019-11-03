@@ -12,4 +12,4 @@ This folder is for the second task: bit-vector select.
 
 4. `overhead()`: overhead() function returns the bits used to store the select_support object.
 
-`select_evaluation.R` file evaluate the profiles of bit-vector select operation. It first generates some random bit-vectors with different size, and plot the relations between bit-vector size and run time or overhead. The result shows that the runtime of select operation is `O(logn)`, and the overhead is `n+o(n)`
+`select_evaluation.R` file evaluates the profiles of the bit-vector select operation. It first generates some random bit-vectors with different size, and plot the relations between bit-vector size and run time or overhead of select operation. The result shows that the runtime of select operation is `O(logn)`, and the overhead is `n+o(n)`
