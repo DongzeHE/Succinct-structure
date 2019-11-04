@@ -1,7 +1,7 @@
 This folder is for the first task: bit-vector rank. 
 
 `bv_rank.r` file is the header file for bv_rank operation. It contains four main functions:
-1. `rank_support()`: rank_support function builds a succinct data structure containing Three parts, which are:  
+1. `rank_support()`: rank_support function builds a succinct data structure containing four parts, which are:  
                   Super blocks `R_s`, with size (n/log2n)*logn = 2n/logn bits = o(n) bits  
                   Blocks `R_b`, with size 2nloglogn/logn bits = o(n) bits  
                   A table `R_p`, with size 2nloglogn/logn bits = o(n) bits  
